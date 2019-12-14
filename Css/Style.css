@@ -108,7 +108,7 @@ font-family: 'Poppins', sans-serif;
 .skills{
     padding-top: 60px;
     height: 400px;
-    background-image: url(/images/bg.PNG);
+    background-image: url(/images/bg.png);
     /* object-fit: cover; */
  }
 .skills .progress{
