@@ -109,6 +109,7 @@ font-family: 'Poppins', sans-serif;
     padding-top: 60px;
     height: 400px;
     background-image: url(/images/bg.PNG);
+    /* object-fit: cover; */
  }
 .skills .progress{
     width: 50%;
@@ -179,7 +180,8 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     float: left;
     width: 25%;
-  }
+    font-size: 0;
+}
 .Portfolio .works > div .img-overlay button{
     font-size: 18px;
     border: 1px solid #fff;
@@ -235,7 +237,6 @@ font-family: 'Poppins', sans-serif;
     padding-bottom: 50px;    
 }
 .process h2{
-
     font-size: 30px;
     word-spacing: 7px;
 }
@@ -252,7 +253,6 @@ font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 40%;
     left: 45%;
-     
 }
 .process .play .video {
     margin-top: 20px;
@@ -392,26 +392,67 @@ font-family: 'Poppins', sans-serif;
     color: #fff;
     border: none;
 }
- 
 /*========End contact me========*/
-/*======== Start footer========*/
+/*======== Start footer=========*/
+  
+
+ .footer{
+    background-color: #232323;
+    padding: 30px 0 ;
+    color: #6c6c6c;
+    overflow: hidden;
+    }
+.footer .col {
+    width: 25%;
+    float: left;
+    margin-top: 15px;
  
-/*========End footer========*/
+    }
+.footer .col h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+
+}
+.footer .col p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    }
+.footer .col .copyright{
+  margin-top: 30px;
+  width: 80%;
+}
+.footer .col .copyright span {
+    color:  #ded4d4;
+    font-weight: normal; 
+    line-height: 1.5;
+    font-size: 16px;   
+}
+     
+ 
+.footer .col   h5{
+font-weight: normal;
+font-size: 15px;
+color:#ded4d4;
+margin-bottom: 15px;    
+}
+.footer .col .Categ{
+list-style: none;
+padding-left: 0;  
+overflow: hidden;
+}
+.footer .col .Categ li {
+padding: 10px 5px;
+color: #ded4d4;    
+} 
+    
 
 
-
-
-
-
-
-
+/*============End footer========*/
 /*=========Start My Framework============*/
 .fl-left{float:left}
 p{line-height: 1.7}
-h2{ font-size: 27px}
-h3{font-size: 25px}
-
-
 /*=========== End My Framework============*/
 
 
