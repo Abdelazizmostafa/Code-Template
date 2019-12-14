@@ -394,9 +394,7 @@ font-family: 'Poppins', sans-serif;
 }
 /*========End contact me========*/
 /*======== Start footer=========*/
-  
-
- .footer{
+.footer{
     background-color: #232323;
     padding: 30px 0 ;
     color: #6c6c6c;
@@ -407,18 +405,17 @@ font-family: 'Poppins', sans-serif;
     float: left;
     margin-top: 15px;
  
-    }
+}
 .footer .col h2{
     font-size: 20px;
     color: #fff;
     font-weight: normal;
-
 }
 .footer .col p{
     font-size: 16px;
     color: #fff;
     font-weight: normal;
-    }
+}
 .footer .col .copyright{
   margin-top: 30px;
   width: 80%;
@@ -429,26 +426,12 @@ font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     font-size: 16px;   
 }
-     
- 
-.footer .col   h5{
+.footer .col h5{
 font-weight: normal;
 font-size: 15px;
 color:#ded4d4;
 margin-bottom: 15px;    
 }
-.footer .col .Categ{
-list-style: none;
-padding-left: 0;  
-overflow: hidden;
-}
-.footer .col .Categ li {
-padding: 10px 5px;
-color: #ded4d4;    
-} 
-    
-
-
 /*============End footer========*/
 /*=========Start My Framework============*/
 .fl-left{float:left}
