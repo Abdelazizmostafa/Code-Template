@@ -1,0 +1,427 @@
+ 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #fff;
+font-family: 'Poppins', sans-serif;
+}
+.clearfix{clear: both;}
+.container{width:1170px;margin: 0 auto;}
+/*========Start Header========*/
+.header{
+    background-image: url(../images/laptop.png); 
+    background-size: cover;
+}
+.header .slider{
+    height: 600px;
+}
+.header .slider .intro{
+    padding-top: 200px;
+    padding-left: 70px;
+    color: #fff;
+    float: right;
+    width: 50%;
+    margin: auto;
+}
+.header .slider .intro h3 {
+    font-size: 40px;
+    padding: 5px 0 ;
+    color: #333;  
+    font-weight: 500;  
+}
+.header .slider .intro p{
+    padding: 5px 0 ;
+    text-align: left;
+    text-transform: capitalize;
+    color: #333; 
+}
+.header .slider .intro button
+{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background: #10C9C3;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+}
+.header .navbar {
+    color: #fff;
+    overflow: hidden;
+    text-transform: capitalize;
+    padding: 25px;
+}
+.header .navbar h2 {
+    text-transform: uppercase;
+    color:#10C9C3;
+}
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;  
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.header .navbar ul li.active a ,
+.header .navbar ul li a:hover{
+    color:#10C9C3;
+}
+/*========EndHeader===========*/
+/*========Start about ========*/
+.about-us
+{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+.about-us p {
+    padding: 10px  40px;
+    margin: 15px  auto;
+    width: 70%;
+    text-align: center;
+}
+.about-us h4 
+{
+    text-align: center;
+    height: 50px;
+    background: none;
+    color: #333;
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 35px;
+    margin-top: 30px;
+}
+/*========End about========*/
+/*========Start Skills========*/
+.skills{
+    padding-top: 60px;
+    height: 400px;
+    background-image: url(/images/bg.PNG);
+ }
+.skills .progress{
+    width: 50%;
+}
+.skills .progress .tech{
+    margin:15px  40px;
+}
+.skills .progress .tech h2{
+    margin: 10px 0  15px 0px;
+    font-weight: 500;
+    color: #000;
+}
+.skills .progress .tech h3{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.skills .progress .tech div{
+    background-color: #F2F2F2;
+    height: 4px;
+}
+.skills .progress .tech div span{
+    background-color:#10C9C3;
+    line-height: 25px;
+    height: 4px;
+    display: block;
+    text-align: right;
+    color: #fff;
+ }
+/*========End Skills========*/
+/* =======Start Statistics======*/
+.Statistics{
+    background-color: #10C9C3;
+    height: 400px;
+    padding: 100px;
+}
+.Statistics .item{
+    width: 23%;
+    margin: auto 1%;
+    height: 200px;
+}
+.Statistics .item .icon {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.Statistics .item .icon  i {
+    margin: 0 40%;
+    color: #fff;
+    padding-top: 90px;
+    font-size: 40px
+}
+.Statistics .item .info{
+    float: right;
+    width: 60%;
+    height: 100%;
+    padding-top: 80px;
+    color: #fff;
+}
+/* =======ُEnf Statistics====== */
+/*========Start Portofolio========*/
+.Portfolio
+{
+    text-align: center;
+}
+.Portfolio .works > div {
+    position: relative;
+    float: left;
+    width: 25%;
+  }
+.Portfolio .works > div .img-overlay button{
+    font-size: 18px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;    
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 110px auto;
+    text-align: center;    
+}
+.Portfolio .works > div img  {
+    width: 100%;
+    height: 100%;
+ }
+.Portfolio .works > div .img-overlay {
+    background-color: rgb(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+.Portfolio .works > div:hover .img-overlay{
+    display: block;
+}
+/*========End Portofolio========*/
+/*========Start Load More=========== */
+.load-more{
+    padding: 10px;
+     height: 80px;
+     background-color:#F5F5F5;
+    text-align: center;
+    color: #9E9E9E; 
+} 
+.load-more h5 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/*======== End Load More=========== */
+/* ==========Strating process====== */
+.process
+{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+.process h2{
+
+    font-size: 30px;
+    word-spacing: 7px;
+}
+.process p {
+    padding: 10px  40px;
+    margin: 15px  auto;
+    width: 70%;
+    text-align: center;
+}
+.process .play {
+    position: relative;
+}
+.process .play .start-btn{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+     
+}
+.process .play .video {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: #2ecc71;
+}
+.process .play .video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ==========Ending process====== */
+/* ==========strating  Feartures====== */
+.Features{
+    background-color:#F5F5F5;
+    height: 600px;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+.Features .element{
+    width: 22%;
+    margin: 1.5%;
+    text-align: center;
+}
+.Features .element h3 {
+    font-weight: normal;
+    margin: 20px;
+    font-size: 22px;
+}
+/* ==========Ending  Feartures====== */
+/*========Start testemonials ========*/
+.testemonials{
+    background-color: #10C9C3;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.testemonials  blockquote {
+    font-size: 18px;
+    margin: 20px auto;
+    line-height: 1.8;
+    color: #fff;
+    padding: 0  40px;
+    width: 80%;
+}
+.testemonials h4 {
+    color: #fff;  
+    font-weight: bold;
+    font-size: 20px; 
+    margin-top: 20px;   
+}
+.testemonials .cricle span
+{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    opacity: .7;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 70px 4px;
+    cursor: pointer;
+}
+.testemonials .cricle span.active , 
+.testemonials .cricle span:hover{
+    background-color: #fff;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+}
+/*========End testemonials========*/
+/* ========Start Partner=======  */
+.sponser{
+    padding:50px;
+    text-align: center;
+    height: 200px;
+}
+ .sponser .part{
+    width: 22%;
+    margin: 1%;
+}
+/*========== End Partner=======  */
+/*========Start contact me========*/
+.contact{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 60px;
+    padding-bottom: 50px;  
+}
+.contact h2{
+    font-size: 34px;
+    color: #333;
+ }
+.contact p {
+    padding: 10px  40px;
+    margin: 15px  auto;
+    width: 70%;
+    text-align: center;
+}
+.contact .form {
+    margin: 20px auto;
+    width: 70%;
+}
+.contact .form .form-info{
+    padding: 20px;
+    text-align: center;
+}
+.contact .form .form-info .half{
+    width: 38%;
+    height: 40px;
+    margin:2%;
+    padding: 10px;
+    border: none;
+}
+.contact .form .form-info .full{
+    width: 81%;
+    height: 40px;
+    margin-bottom:2%;
+    padding: 10px;
+    border: none;
+}
+.contact .form .form-info .cust{
+    width: 81%;
+    height: 150px;
+    margin-bottom:2%;
+    padding: 10px;
+    border: none;
+}
+.contact .form .form-info .send{
+    display: block;
+    text-align: center;
+    margin: 2% auto;
+    width: 200px;
+    height: 55px;
+    background-color: #10C9C3;
+    color: #fff;
+    border: none;
+}
+ 
+/*========End contact me========*/
+/*======== Start footer========*/
+ 
+/*========End footer========*/
+
+
+
+
+
+
+
+
+/*=========Start My Framework============*/
+.fl-left{float:left}
+p{line-height: 1.7}
+h2{ font-size: 27px}
+h3{font-size: 25px}
+
+
+/*=========== End My Framework============*/
+
+
+
+
+
+
+
+
+
+
+
+

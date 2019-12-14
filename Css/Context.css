@@ -1,0 +1,60 @@
+.About{background-color: #F2F2F2;overflow: hidden;}
+
+.About .img {width: 40%;}
+
+.About .img img{width: 90%;margin-top: 35px;}
+
+.About .info{float: right;width: 60%;}
+
+.About .info h2 {margin: 30px 0  20px 40px;}
+
+.About .info p {margin: 0 0 10px 40px;}
+
+.About .info p:last-of-type{margin-top: 20px;}
+
+.About .info .box{overflow: hidden;margin: 30px 0 0 40px;}
+
+.About .info .box >div{width: 50%;min-height: 100px;}
+
+.About .info .box div img{margin:15px 15px 0 0 ; }
+
+.About .info .box div p{margin: -6px 0 10px 55px;}
+
+/*========End About Me ========*/
+
+
+.projects .pics .poverlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-size:18px;
+    text-align: center;
+    color: #fff;    
+    background-color: #24B79B;
+    transition: all 1s ease-in-out;
+    opacity: .8;
+    display: none;
+    }
+    .projects .pics:hover .poverlay{
+    display: block;
+    }
+    .projects .pics .poverlay button{
+    font-size: 18px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;    
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 80px auto;
+    text-align: center;    
+    }
+    .projects .pics .poverlay .heart{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    }
